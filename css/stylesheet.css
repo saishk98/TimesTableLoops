@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-color: blue;
+	font-family: Arial;
+	color: aliceblue; 
+}
+
+table{
+	border-collapse: collapse;
+	width: 75%;
+    background-color: white;
+}
+
+table, tr, td{
+	border: 1px solid black;
+}
+
+caption{
+	font-size: 1.5em;
+}
+
+.for-table .even{
+	background-color: navy;
+	color: ghostwhite;
+}
+
+.for-table .odd{
+	background-color: orangered;
+	color: ghostwhite;
+}
+
+.for-table .green-row-and-column{
+	background-color: chartreuse;
+	color: black;
+}
+
+.for-table .square{
+	background-color: black;
+	color: ghostwhite;
+}
+
+.while-table .even{
+	background-color: yellow;
+	color: black;
+}
+
+.while-table .odd{
+	background-color: mediumblue;
+	color: ghostwhite;
+}
+
+.while-table .green-row-and-column{
+	background-color: chartreuse;
+	color: black;
+}
+
+.while-table .square{
+	background-color: black;
+	color: ghostwhite;
+}
